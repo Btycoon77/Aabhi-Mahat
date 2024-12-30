@@ -1,0 +1,239 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Results</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #f5f7fa;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.results-section, .testimonials-section {
+    text-align: center;
+    width: 90%;
+    max-width: 1200px;
+    margin: 40px auto;
+}
+
+.results-section h1, .testimonials-section h1 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.results-container, .testimonials-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+/* Result Cards */
+.result-card {
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: auto;
+    margin-top: 80px;
+}
+
+ #appointment {
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: auto;
+    margin-top: 80px;
+    height: 300px;
+    width: 410px;
+}
+.result-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+}
+
+.result-card img {
+    width: 100%; /* Keep original image size */
+    height: auto;
+    display: block;
+}
+
+.result-card .card-content {
+    padding: 20px;
+    text-align: left;
+}
+
+.result-card .card-content p {
+    font-size: 1em;
+    line-height: 1.5;
+    color: #555;
+}
+
+/* Testimonial Cards */
+.testimonial-card {
+    background: #fff;
+    /* border-radius: 10px; */
+    height: 362px;
+    width: 400px;
+    padding: 20px;
+    text-align: left;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    max-width: 350px;
+    flex: 1;
+    position: relative;
+    overflow: hidden;
+}
+
+.testimonial-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+}
+
+.testimonial-card img {
+    width: 275px;
+    height: 306px;
+   
+    object-fit: cover;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    border: 2px solid #eee;
+}
+
+.testimonial-card p {
+    font-size: 1em;
+    line-height: 1.6;
+    color: #333;
+    margin-left: 110px;
+}
+
+.testimonial-card span {
+    display: block;
+    margin-left: 110px;
+    font-size: 0.9em;
+    color: #777;
+    font-weight: 600;
+    margin-top: 10px;
+}
+/* Back Button */
+.back-button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 1em;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.back-button:hover {
+    background-color: #0056b3;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+}
+
+.results-section, .testimonials-section {
+    text-align: center;
+    width: 90%;
+    max-width: 1200px;
+    margin: 40px auto;
+}
+
+    </style>
+</head>
+<body>
+    
+    <!-- Back button -->
+    <a href="index.html" class="back-button">← Back to Homepage</a>
+
+    <section class="results-section">
+        <h1>Our Clients' Success Stories</h1>
+        <div class="results-container">
+            <!-- Result Card 1 -->
+            <div class="result-card">
+                <img src="wp-content/uploads/2019/01/windows.jpg" alt="Result 2">
+                <!-- <div class="card-content">
+                    <!-- <p>"Aabhi's strategies brought us high-quality leads at an amazing cost. Highly recommend for any contractor in Ontario!"</p> -->
+                </div> -->
+            </div>
+            <!-- Card 3 -->
+            <div class="result-card">
+                <img src="wp-content/uploads/2019/01/windows_Remodeling.jpg" alt="Result 3">
+                <!-- <div class="card-content">
+                    <p>"From leads to appointments, Aabhi made it happen for our remodeling business. Great ROI and excellent service."</p>
+                </div> -->
+            </div>
+
+            <div class="result-card">
+                <img src="wp-content/uploads/2019/01/remodeling-3.png" alt="Result 3">
+                <!-- <div class="card-content">
+                    <p>"From leads to appointments, Aabhi made it happen for our remodeling business. Great ROI and excellent service."</p>
+                </div> -->
+            </div>
+
+            <div class="result-card">
+                <img src="wp-content/uploads/2019/01/remodeling-1.png" alt="Result 3">
+                <!-- <div class="card-content">
+                    <p>"From leads to appointments, Aabhi made it happen for our remodeling business. Great ROI and excellent service."</p>
+                </div> -->
+            </div>
+
+            <div class="result-card">
+                <img src="wp-content/uploads/2019/01/remodeling-4.png" alt="Result 3">
+                <!-- <div class="card-content">
+                    <p>"From leads to appointments, Aabhi made it happen for our remodeling business. Great ROI and excellent service."</p>
+                </div> -->
+            </div>
+
+           
+
+            <div class="result-card">
+                <img src="wp-content/uploads/2019/01/remodeling-appointments.png" alt="Result 3" id="appointment">
+                <!-- <div class="card-content">
+                    <p>"From leads to appointments, Aabhi made it happen for our remodeling business. Great ROI and excellent service."</p>
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials-section">
+        <h1>Client Testimonials</h1>
+        <div class="testimonials-container">
+            <!-- Testimonial Card 1 -->
+            <div class="testimonial-card">
+                <img src="wp-content/uploads/2019/01/testimonial1.jpg" alt="Client Photo">
+                
+            </div>
+            <!-- Testimonial Card 2 -->
+            <div class="testimonial-card">
+                <img src="wp-content/uploads/2019/01/testimonial2.jpg" alt="Client Photo">
+                
+            </div>
+        </div>
+    </section>
+</body>
+</html>
