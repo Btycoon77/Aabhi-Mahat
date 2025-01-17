@@ -457,6 +457,12 @@ span.menu-icon {
       width: 56%; /* Full width relative to container */
       text-align: center; /* Center align text */
     }
+
+    #captionText p {
+        font-size: 16px; /* Smaller text size */
+        font-weight: 400; /* Slightly lighter weight */
+        text-align: center; /* Center-align text */
+      }
   }
 
   /* For mobile phones */
@@ -473,6 +479,11 @@ span.menu-icon {
       margin: 6px ; /* Center-align and reduce spacing */
       width: 66%; /* Occupy most of the container width */
     }
+    #captionText p {
+        font-size: 14px; /* Smaller font size for mobile */
+        text-align: center; /* Center-align text */
+        color: #555; /* Slightly lighter color for readability */
+      }
   }
 
 
