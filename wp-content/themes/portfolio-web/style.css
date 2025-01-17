@@ -471,7 +471,7 @@ span.menu-icon {
       font-size: 12px; /* Smaller font size for mobile */
       padding: 6px 12px; /* Reduce padding further */
       margin: 6px ; /* Center-align and reduce spacing */
-      width: 51%; /* Occupy most of the container width */
+      width: 66%; /* Occupy most of the container width */
     }
   }
 
