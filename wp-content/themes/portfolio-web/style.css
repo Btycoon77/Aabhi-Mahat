@@ -430,6 +430,52 @@ span.menu-icon {
     position: relative;
 }
 
+#responsiveDiv {
+    /* height: 400px; */
+  }
+
+  #consultationButton,
+  #resultsButton {
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 10px 5px;
+  }
+
+  /* For tablets and smaller devices */
+  @media (max-width: 768px) {
+    #responsiveDiv {
+      background-size: contain;
+      height: 300px;
+    }
+
+    #consultationButton,
+    #resultsButton {
+      font-size: 14px; /* Smaller text size */
+      padding: 8px 16px; /* Adjust padding */
+      margin: 8px 4px; /* Adjust margin */
+      display: block; /* Stack buttons vertically */
+      width: 56%; /* Full width relative to container */
+      text-align: center; /* Center align text */
+    }
+  }
+
+  /* For mobile phones */
+  @media (max-width: 480px) {
+    #responsiveDiv {
+      background-size: 100%;
+      height: 200px;
+    }
+
+    #consultationButton,
+    #resultsButton {
+      font-size: 12px; /* Smaller font size for mobile */
+      padding: 6px 12px; /* Reduce padding further */
+      margin: 6px ; /* Center-align and reduce spacing */
+      width: 51%; /* Occupy most of the container width */
+    }
+  }
+
+
 span.menu-icon span {
     display: block;
     position: absolute;
